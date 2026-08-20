@@ -1,0 +1,22 @@
+# The recorded database is never distributed: it contains Telegram chat ids
+# (personal data) and is 12 GB. Everything derived from it lives in the README.
+*.db
+*.db.bak
+*.sqlite
+*.sqlite3
+
+# Credentials, in every shape this project ever used
+.env
+.env.*
+*.pem
+*.key
+config_local.py
+StartScanner.bat
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
